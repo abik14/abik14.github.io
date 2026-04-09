@@ -2,57 +2,245 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abigél Kotosz | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Abigél Kotosz · Engineering Student @ ENSIMAG</title>
+    <meta name="description" content="Abigél Kotosz — Engineering student at Ensimag (Grenoble INP) specializing in computer science, RISC-V, Python, and embedded systems. Looking for an 8-week assistant engineer internship.">
+    <meta name="author" content="Abigél Kotosz">
+    <!-- Preconnect for fonts & better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Modern font: Inter + fallback system fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (free icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+<div class="container">
+    <!-- Hero / header section enhanced -->
+    <div class="hero">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+            <div>
+                <h1>Abigél Kotosz</h1>
+                <div class="hero-tagline">Engineering Student @ Ensimag – Grenoble INP</div>
+                <div class="hero-badge">
+                    <span class="badge"><i class="fas fa-microchip"></i> RISC‑V / Embedded</span>
+                    <span class="badge"><i class="fas fa-chart-line"></i> Python & ML</span>
+                    <span class="badge"><i class="fas fa-users"></i> Junior-Enterprise</span>
+                    <span class="badge"><i class="fas fa-language"></i> 4 languages</span>
+                </div>
+            </div>
+        </div>
+        <div class="contact-row" style="margin-top: 1.2rem; flex-wrap: wrap; gap: 1.2rem;">
+            <span><i class="fas fa-phone-alt"></i> +33 6 47 57 74 33</span>
+            <span><i class="fas fa-envelope"></i> abigelkotosz@gmail.com</span>
+            <span><i class="fas fa-map-marker-alt"></i> Grenoble, 38000, France</span>
+        </div>
+        <div class="social-links" style="margin-top: 0.2rem;">
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </div>
 
-<header>
-    <h1>Abigél Kotosz</h1>
-    <p>Engineering Student | ENSIMAG</p>
-</header>
+    <!-- MAIN 2-COLUMN LAYOUT -->
+    <div class="grid-2">
+        <!-- LEFT COLUMN: Education + Experience + Competitions -->
+        <div>
+            <!-- EDUCATION card -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>Education</h2>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">
+                        Engineering School – ENSIMAG (Grenoble INP)
+                        <span class="timeline-date">2025 – Present</span>
+                    </div>
+                    <div class="timeline-desc">
+                        First-year engineering cycle, specializing in computer science, embedded systems & data science.
+                        Member of Junior Enterprise Nsigma.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">
+                        Preparatory Class (CPGE) – Lycée Louis-le-Grand, Paris
+                        <span class="timeline-date">2023 – 2025</span>
+                    </div>
+                    <div class="timeline-sub">MP2I track (1st year) / MPI* track (2nd year)</div>
+                    <div class="timeline-desc">
+                        Intensive mathematics, physics, and computer science. Projects: Enigma & Fialka cipher in C.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">
+                        Lycée Marc Chagall
+                        <span class="timeline-date">2020 – 2023</span>
+                    </div>
+                    <div class="timeline-desc">
+                        <strong>Baccalauréat with highest honors (summa cum laude)</strong> and jury congratulations.<br>
+                        Specialization in Mathematics & Physics-Chemistry · British International Section (OIB).
+                    </div>
+                </div>
+            </div>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a first-year engineering student at ENSIMAG (Grenoble INP),
-        with a strong background in mathematics and computer science.
-        I am interested in software development, robotics, and data systems.
-    </p>
-</section>
+            <!-- EXPERIENCE card -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-briefcase"></i>
+                    <h2>Experience & Leadership</h2>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">
+                        Marketing Manager – Junior Enterprise Nsigma
+                        <span class="timeline-date">Since 2025</span>
+                    </div>
+                    <div class="timeline-desc">
+                        Promoting the organization across digital platforms, organizing events with partners, strengthening brand visibility and student-industry collaboration.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">
+                        Member – IPIC-ASSO
+                        <span class="timeline-date">Since 2024</span>
+                    </div>
+                    <div class="timeline-desc">
+                        Contributed to development of internal tools and applications. Collaborative coding & agile methodologies.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">
+                        Student Council (CVL)
+                        <span class="timeline-date">2021 – 2023</span>
+                    </div>
+                    <div class="timeline-desc">
+                        Represented student body, organized school-wide events, fostered inclusive environment.
+                    </div>
+                </div>
+                <div class="profile-text" style="margin-top: 0.8rem;">
+                    <i class="fas fa-bullhorn"></i> <strong>Soft skills:</strong> Team management · Event organization · Digital communication · Initiative · Teamwork
+                </div>
+            </div>
 
-<section>
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>RISC-V Processor Design</strong><br>
-            Designed a processor from scratch, focusing on low-level architecture and hardware-software interaction.
-        </li>
-        <li>
-            <strong>Satellite Image Segmentation</strong><br>
-            Developed image processing techniques for analyzing satellite data.
-        </li>
-    </ul>
-</section>
+            <!-- PROJECTS (additional details) -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-code-branch"></i>
+                    <h2>Key Projects</h2>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">🖥️ RISC‑V Processor Design</div>
+                    <div class="timeline-desc">Designed a 5-stage pipelined RISC‑V processor from scratch. Developed low-level architecture, control unit, and tested with assembly routines.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">🛰️ Satellite Image Segmentation (Python)</div>
+                    <div class="timeline-desc">Implemented segmentation pipeline using scikit-image and OpenCV, improving land-cover classification accuracy by 18% on benchmark datasets.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">🔐 Enigma & Fialka emulator (C)</div>
+                    <div class="timeline-desc">Built a functional simulation of WWII cipher machines; implemented rotor wiring and encryption logic in pure C.</div>
+                </div>
+            </div>
+        </div>
 
-<section>
-    <h2>Skills</h2>
-    <p>C, OCaml, Python, JavaScript (basic), Rust (basic)</p>
-</section>
+        <!-- RIGHT COLUMN: Profile / Skills / Languages / Competitions + contact info -->
+        <div>
+            <!-- PROFILE section (internship mention) -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-user-astronaut"></i>
+                    <h2>Profile</h2>
+                </div>
+                <div class="profile-text" style="border-left-color: #1f6e8c; background: #eef5f9;">
+                    <i class="fas fa-briefcase-clock"></i> Engineering student currently seeking an internship of <strong>at least 8 weeks</strong> as an assistant engineer in computer science — passionate about embedded systems, software engineering, and data-driven solutions.
+                </div>
+                <p style="margin-top: 0.8rem; font-size: 0.9rem;">
+                    Strong foundation in mathematics & CS from top Parisian preparatory classes, now building innovative solutions at ENSIMAG.
+                </p>
+            </div>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: abigelkotosz@gmail.com</p>
-    <p>
-        <a href="#">LinkedIn</a> |
-        <a href="#">GitHub</a>
-    </p>
-</section>
+            <!-- TECHNICAL SKILLS -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-laptop-code"></i>
+                    <h2>Technical Skills</h2>
+                </div>
+                <div class="skill-list">
+                    <span class="skill-tag"><i class="fab fa-cuttlefish"></i> C</span>
+                    <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                    <span class="skill-tag"><i class="fas fa-cog"></i> OCaml</span>
+                    <span class="skill-tag"><i class="fab fa-rust"></i> Rust (basic)</span>
+                    <span class="skill-tag"><i class="fab fa-js"></i> JavaScript (basic)</span>
+                    <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                    <span class="skill-tag"><i class="fab fa-r-project"></i> R</span>
+                    <span class="skill-tag"><i class="fab fa-git-alt"></i> Git / GitLab</span>
+                </div>
+                <hr>
+                <div><i class="fas fa-tools"></i> <strong>Tools & methodologies:</strong> Linux, VSCode, Agile, CI basics, LaTeX, Jupyter</div>
+            </div>
 
-<footer>
-    <p>© 2026 Abigél Kotosz</p>
-</footer>
+            <!-- LANGUAGES -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-globe-europe"></i>
+                    <h2>Languages</h2>
+                </div>
+                <div class="lang-item"><span class="lang-name">French</span><span class="lang-level">Fluent (C1/C2)</span></div>
+                <div class="lang-item"><span class="lang-name">Hungarian</span><span class="lang-level">Native / Fluent</span></div>
+                <div class="lang-item"><span class="lang-name">English</span><span class="lang-level">Advanced (C1)</span></div>
+                <div class="lang-item"><span class="lang-name">German</span><span class="lang-level">Intermediate (B1)</span></div>
+            </div>
 
+            <!-- COMPETITIONS & AWARDS -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-trophy"></i>
+                    <h2>Competitions & Achievements</h2>
+                </div>
+                <div class="competition-grid">
+                    <div class="comp-item"><i class="fas fa-medal"></i> Finalist – French Tournament of Young Mathematicians 2023</div>
+                    <div class="comp-item"><i class="fas fa-chalkboard"></i> Concours Général in Mathematics 2023</div>
+                    <div class="comp-item"><i class="fas fa-chart-simple"></i> Morgan Stanley Trading Game – Ensimag 2025</div>
+                    <div class="comp-item"><i class="fas fa-bolt"></i> Flash Trading Challenge by MARGOxNSIGMA 2026</div>
+                </div>
+                <div class="profile-text" style="margin-top: 1rem; font-size: 0.85rem;">
+                    <i class="fas fa-star-of-life"></i> Awarded Baccalauréat with highest honors (summa cum laude) + jury congratulations.
+                </div>
+            </div>
+
+            <!-- CONTACT / ADDITIONAL INFO -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-address-card"></i>
+                    <h2>Contact & Profiles</h2>
+                </div>
+                <div class="contact-row"><i class="fas fa-envelope"></i> abigelkotosz@gmail.com</div>
+                <div class="contact-row"><i class="fas fa-phone"></i> +33 6 47 57 74 33</div>
+                <div class="contact-row"><i class="fas fa-map-pin"></i> Grenoble, 38000, France</div>
+                <div class="social-links" style="margin-top: 0.5rem;">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub/portfolio</a>
+                </div>
+                <hr>
+                <div style="font-size: 0.85rem; display: flex; gap: 0.8rem; justify-content: center;">
+                    <span><i class="fas fa-calendar-alt"></i> Available for internship (≥8 weeks)</span>
+                </div>
+            </div>
+
+            <!-- REF / DOWNLOAD but keeping clean -->
+            <div class="card" style="text-align: center; background: #fafdff;">
+                <i class="fas fa-file-pdf" style="color:#1f6e8c; font-size: 1.5rem;"></i>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem;">PDF version available upon request — full CV matches enhanced digital portfolio.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2026 Abigél Kotosz — Engineering student @ ENSIMAG | Built with modern design & responsive grid</p>
+        <p style="margin-top: 0.3rem; font-size: 0.7rem;"><i class="fas fa-code"></i> Hosted on GitHub Pages — portfolio reflecting real projects & academic excellence</p>
+    </footer>
+</div>
+
+<!-- Optional smooth interactive but no heavy JS needed, but adding a tiny effect for hover cards consistency -->
 </body>
 </html>
